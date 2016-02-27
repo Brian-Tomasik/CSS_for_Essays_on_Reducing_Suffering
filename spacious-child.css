@@ -1,0 +1,199 @@
+/*
+ Theme Name:   Spacious Child
+ Theme URI:    http://reducing-suffering.org/spacious-child/
+ Description:  Spacious Child Theme
+ Author:       Brian Tomasik
+ Author URI:   http://reducing-suffering.org
+ Template:     spacious
+ Version:      1.0.0
+ Text Domain:  spacious-child
+*/
+
+
+@import url("../spacious/style.css");
+@import url("csharp.css");
+
+abbr {border-bottom: 2px dotted pink;}
+
+h2 { font-size: 28px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+a {
+    color:rgb(0,100,200);
+}
+
+a:hover {
+    color:rgb(0,100,25);
+}
+
+li {
+	margin: 0% 0% 1% 0%;
+}
+
+ul {
+	margin: 0 0 0 0;
+	border-bottom: 0px solid #EAEAEA;
+}
+
+q:before {
+	content: "\"";
+}
+
+q:after {
+	content: "\"";
+}
+
+.entry-content ul,
+.entry-content ol {	
+	padding: 0 0 0 35px; 
+   margin-bottom: 15px;
+}
+
+.footer-widgets-wrapper {
+	background-color:rgb(250,250,250);
+	border-top: 1px solid #EAEAEA;
+}
+
+.footer-widgets-area a { 
+	color: rgb(100,200,220) !important;
+}
+
+#site-title a {
+	font-size: 24px;	
+}
+
+#menu-sections a:hover {
+    color:rgb(0,100,25);
+}
+
+.widget-title h3 {
+ text-color: black;
+}
+
+.image10percent img {
+width:10%;
+}
+
+.image20percent img {
+width:20%;
+}
+
+.image30percent img {
+width:30%;
+}
+
+img {
+width: 40%;
+margin: 15px;
+}
+
+.image40percent img {
+width:40%;
+}
+
+.image50percent img {
+width:50%;
+}
+
+.image60percent img {
+width:60%;
+}
+
+.image70percent img {
+width:70%;
+}
+
+.image80percent img {
+width:80%;
+}
+
+.image90percent img {
+width:90%;
+}
+
+.image100percent img {
+width:100%;
+}
+
+.fullwidthimage img {
+width:100%;
+}
+
+.statcounterimage img {
+width:5%;
+}
+
+
+/* =BLOCKQUOTE
+----------------------------------------------- */
+blockquote {
+	font-style: normal;
+	margin-left: 5%;	
+	border: none;
+        padding: 0px;
+	border-left: none !important;
+	margin-bottom: 0px;
+}
+
+blockquote em, blockquote i, blockquote cite {
+	font-style: italic;
+}
+
+/* Below is from http://www.periodni.com/mathematical_and_chemical_equations_on_web.html */
+
+.fraction {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle; 
+	letter-spacing: 0.01em;
+	text-align: center;
+	}
+.fraction > span { 
+	display: block; 
+	padding: 0.2em; 
+	}
+.fraction span.fdn {border-top: thin solid black;}
+.fraction span.bar {display: none;}
+
+.eq-c {
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.intsuma {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 0.5ex;
+	}
+.intsuma .lim, .intsuma .lim-up {
+	display: block;
+	font-size: 75%;
+	text-align: center;
+	}
+.intsuma .lim-up {
+	margin-bottom: 0;
+	margin-left: 0.8ex;
+	}
+.intsuma .lim {margin-bottom: -0.6ex;}
+.intsuma .sum {font-size: 1.2em;}
+.intsuma .sum-frac {font-size: 2em;}
+
+.n-root {
+	position: relative;
+	top: -1.3em;
+	left: 1.9ex;
+	font-size: 45%;
+	}
+.radical {
+	font-size: 1.7em;
+	vertical-align: middle;
+	}
+.radicand { 
+	padding: 0.5ex;
+	border-top: thin black solid;
+	}

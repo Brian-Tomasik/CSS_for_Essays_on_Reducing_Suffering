@@ -73,6 +73,11 @@ q:after {
  text-color: black;
 }
 
+/* Brian added the following ".main-navigation" change on 1 May 2018, because Brian's removal of a plugin seemed to mess up the menu alignment for some reason? */
+.main-navigation {
+ padding-top: 23px;
+}
+
 .image10percent img {
 width:10%;
 }

@@ -5,8 +5,8 @@
  Author:       Brian Tomasik
  Author URI:   http://reducing-suffering.org
  Template:     spacious
- Version:      1.0.0
  Text Domain:  spacious-child
+ Note: I use the same child theme also for http://briantomasik.com/
 */
 
 
@@ -125,10 +125,6 @@ width:100%;
 
 .fullwidthimage img {
 width:100%;
-}
-
-.statcounterimage img {
-width:5%;
 }
 
 
